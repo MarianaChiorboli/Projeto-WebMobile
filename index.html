@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Funcionalidades Flexblox</h1>
+      <nav>
+        <ul>
+          <a href="#flex-direciton"><li>Flex Direction</li></a>
+          <a href="#justify-content"><li>Justify Content</li></a>
+          <a href="#flex-wrap"><li>Flex Wrap</li></a>
+          <a href="#flex-flow"><li>Flex Flow</li></a>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <h1>Para que serve o Flexbox?</h1>
+      <p>
+        O Flexbox é um conjunto de propriedades do CSS que te ajudam a organizar
+        elementos dentro de um container de forma muito mais fácil e intuitiva.
+        Com ele, você pode alinhar elementos, distribuir espaço, criar layouts
+        responsivos, organizar elementos em linhas ou colunas e até mesmo criar
+        layouts complexos combinando diversas propriedades.
+      </p>
+
+      <div class="flex-container">
+        <section id="flex-direction">
+          <h3>Flex Direction</h3>
+          <p>
+            Essa propriedade define a direção dos itens dentro do contêiner.
+          </p>
+          <br />
+          <p>o Flex direction "ROW" mantem a ordem em linha:</p>
+          <div class="flex-direction-row">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+          <br />
+          <p>Ja se usarmos o Flex direction "COLUMN" ordena em coluna:</p>
+          <div class="flex-direction-column">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+        </section>
+
+        <section id="justify-content" class="justify-content">
+          <h3>Justify Content</h3>
+          <p>Alinha os itens ao longo do eixo principal.</p>
+          <br />
+          <h4>Flex Start</h4>
+          <p>
+            Com o Flex Start os ítens são alinhados junto à borda de início
+            (start) de acordo com qual for a flex-direction do container:
+          </p>
+
+          <div class="justify-content-flex-start">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+          <br />
+          <h4>Flex End</h4>
+          <p>
+            Ja no Flex End ocorre o contrario onde os ítens são alinhados junto
+            à borda final:
+          </p>
+
+          <div class="justify-content-flex-end">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+          <h4>Center</h4>
+          <p>Com o center os ítens são centralizados na linha</p>
+          <div class="justify-content-center">
+            <br />
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+          <h4>Space Between</h4>
+          <p>
+            o Space Between os ítens são distribuídos igualmente ao longo da
+            linha
+          </p>
+          <div class="justify-content-space-between">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+          <h4>Space Around</h4>
+          <p>
+            Com o Space Around o espaçamento é distribuido ao longo da linha
+          </p>
+          <div class="justify-content-space-around">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+          <h4>Space Evenly</h4>
+          <p>
+            Usando o Space Evenly os ítens são distribuídos de forma que o
+            espaçamento entre quaisquer dois itens da linha (incluindo entre os
+            ítens e as bordas) seja igual.
+          </p>
+          <div class="justify-content-space-evenly">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+          </div>
+        </section>
+
+        <section id="flex-wrap" class="flex-wrap">
+          <h3>Flex Wrap</h3>
+          <p>Define os itens para quebrar em várias linhas.</p>
+          <div class="flex-wrap-wrap">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+            <div class="flex-item"><h5>Texto 4</h5></div>
+            <div class="flex-item"><h5>Texto 5</h5></div>
+            <div class="flex-item"><h5>Texto 6</h5></div>
+          </div>
+        </section>
+
+        <section id="flex-flow" class="flex-flow">
+          <h3>Flex Flow</h3>
+          <p>
+            Combina as propriedades flex-direction e flex-wrap em uma única
+            linha.
+          </p>
+          <div class="flex-flow-row-wrap">
+            <div class="flex-item"><h5>Texto 1</h5></div>
+            <div class="flex-item"><h5>Texto 2</h5></div>
+            <div class="flex-item"><h5>Texto 3</h5></div>
+            <div class="flex-item"><h5>Texto 4</h5></div>
+            <div class="flex-item"><h5>Texto 5</h5></div>
+            <div class="flex-item"><h5>Texto 6</h5></div>
+          </div>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>

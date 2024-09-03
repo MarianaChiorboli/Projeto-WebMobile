@@ -1,4 +1,4 @@
-# H1 Flexbox - PoC
+# Flexbox - PoC
 
 ## O que é o Flexbox? 
 
@@ -9,7 +9,7 @@
 **Essa propriedade define a direção dos itens dentro do contêiner.**
 **o Flex direction "ROW" mantem a ordem em linha:**
 
-![image](https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37)
+<p align="center"> <img src="https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37"> </img> </p>
 
 **Ja se usarmos o Flex direction "COLUMN" ordena em coluna:**
 

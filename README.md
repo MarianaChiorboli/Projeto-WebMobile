@@ -13,7 +13,7 @@
 
 **Ja se usarmos o Flex direction "COLUMN" ordena em coluna:**
 
-<p align="center">![image](https://github.com/user-attachments/assets/3043f3a7-6b79-44b0-8bc5-13825df8119f) </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/3043f3a7-6b79-44b0-8bc5-13825df8119f"> </img> </p>
 
 ## Justify Content
 

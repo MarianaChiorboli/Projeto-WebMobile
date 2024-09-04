@@ -10,14 +10,14 @@
 **o Flex direction "ROW" mantem a ordem em linha:**
 
 Exemplo codigo:
-<p align="center"> <img src="https://github.com/user-attachments/assets/3a51833a-3022-40b3-9a60-f2b693c3934d"></p>
+<p align="center" style="border-radius="5px"> <img src="https://github.com/user-attachments/assets/20aa119f-4ba9-42b4-b052-5cbf23bfdc15"></p>
 Resultado:
-<p align="center"> <img src="https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37"> </img> </p>
+<p align="center" style="border-radius="5px"> <img src="https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37"> </img> </p>
 
 
 **Ja se usarmos o Flex direction "COLUMN" ordena em coluna:**
 
-<p align="center"> <img src="https://github.com/user-attachments/assets/3043f3a7-6b79-44b0-8bc5-13825df8119f"> </img> </p>
+<p align="center" style="border-radius="5px"> <img src="https://github.com/user-attachments/assets/3043f3a7-6b79-44b0-8bc5-13825df8119f"> </img> </p>
 
 ## 📌 Justify Content
 

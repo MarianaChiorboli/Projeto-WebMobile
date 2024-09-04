@@ -31,3 +31,4 @@
 
 **Com o Flex Start os ítens são alinhados junto à borda de início (start) de acordo com qual for a flex-direction do container:**
 
+**<p align="center"> <img src="https://github.com/user-attachments/assets/13245aaf-a117-4aa9-8528-ec39f38a2f1d"> </p>

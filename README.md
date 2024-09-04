@@ -10,7 +10,7 @@
 **o Flex direction "ROW" mantem a ordem em linha:**
 
 Exemplo codigo:
-<p align="center"> <img="https://github.com/user-attachments/assets/3a51833a-3022-40b3-9a60-f2b693c3934d"></p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/3a51833a-3022-40b3-9a60-f2b693c3934d"></p>
 Resultado:
 <p align="center"> <img src="https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37"> </img> </p>
 

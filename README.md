@@ -36,10 +36,41 @@
 ## 📌 Flex End
 
 **Ja no Flex End ocorre o contrario onde os ítens são alinhados junto à borda final:**
-
+##
 <p align="right"> <img src="https://github.com/user-attachments/assets/4bff0d54-f888-4279-8282-6747ff0a2b82"> </p>
 
 ## 📌 Center
 
 **Com o center os ítens são centralizados na linha**
 <img  align="center" src="https://github.com/user-attachments/assets/91d83ba1-d673-4af1-b099-d19a18a7c21f">
+
+## 📌 Space Between
+
+**o Space Between os ítens são distribuídos igualmente ao longo da linha**
+
+<img src="https://github.com/user-attachments/assets/ec3c65da-86d1-4878-a598-b46443906759">
+
+## 📌 Space Around
+
+**Com o Space Around o espaçamento é distribuido ao longo da linha**
+
+<img src="https://github.com/user-attachments/assets/eab79ce8-1c8e-4b3f-adb6-90b36ee78c55">
+
+## 📌 Space Evenly
+
+**Usando o Space Evenly os ítens são distribuídos de forma que o espaçamento entre quaisquer dois itens da linha (incluindo entre os ítens e as bordas) seja igual.**
+
+<img src="https://github.com/user-attachments/assets/10ff2a9b-d915-49ee-b39c-e629582703c4">
+
+## 📌 Flex Wrap
+
+**Define os itens para quebrar em várias linhas.**
+
+<img src="https://github.com/user-attachments/assets/5be8c34d-8829-4e56-9e3d-69e6b0c480cf">
+
+## 📌 Flex Flow
+
+**Combina as propriedades flex-direction e flex-wrap em uma única linha.**
+
+<img src="https://github.com/user-attachments/assets/40b49b0f-501b-405a-95d5-3ddf0a41ec49">
+

@@ -15,7 +15,8 @@
 **Resultado:**
 <p> <img src="https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37"> </p>
 
-**Ja se usarmos o Flex direction "COLUMN" ordena em coluna
+**Ja se usarmos o Flex direction "COLUMN" ordena em coluna**
+<br>
 **Exemplo codigo:**
 <p> <img src="https://github.com/user-attachments/assets/1bbc92cb-f866-482d-a998-49f9e9df1e98"> </p>
 

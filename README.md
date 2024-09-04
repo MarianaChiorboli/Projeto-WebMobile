@@ -9,16 +9,17 @@
 **Essa propriedade define a direção dos itens dentro do contêiner.**
 **o Flex direction "ROW" mantem a ordem em linha:**
 
-Exemplo codigo:
+**Exemplo codigo:**
 <p> <img src="https://github.com/user-attachments/assets/20aa119f-4ba9-42b4-b052-5cbf23bfdc15"> </p>
-Resultado:
+
+**Resultado:**
 <p> <img src="https://github.com/user-attachments/assets/9584ef1d-6dc0-4f7b-afc3-f84b84207f37"> </p>
 
-
 **Ja se usarmos o Flex direction "COLUMN" ordena em coluna
-Exemplo codigo:
+**Exemplo codigo:**
 <p> <img src="https://github.com/user-attachments/assets/1bbc92cb-f866-482d-a998-49f9e9df1e98"> </p>
-Resultado:
+
+**Resultado:**
 <p> <img src="https://github.com/user-attachments/assets/3043f3a7-6b79-44b0-8bc5-13825df8119f"> </p>
 
 ## 📌 Justify Content

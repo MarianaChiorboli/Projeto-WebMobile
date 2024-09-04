@@ -38,3 +38,8 @@
 **Ja no Flex End ocorre o contrario onde os ítens são alinhados junto à borda final:**
 
 <p align="right"> <img src="https://github.com/user-attachments/assets/4bff0d54-f888-4279-8282-6747ff0a2b82"> </p>
+
+## 📌 Center
+
+**Com o center os ítens são centralizados na linha**
+<img  align="center" src="https://github.com/user-attachments/assets/91d83ba1-d673-4af1-b099-d19a18a7c21f">

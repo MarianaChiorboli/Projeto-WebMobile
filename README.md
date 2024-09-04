@@ -31,4 +31,10 @@
 
 **Com o Flex Start os ítens são alinhados junto à borda de início (start) de acordo com qual for a flex-direction do container:**
 
-**<p align="center"> <img src="https://github.com/user-attachments/assets/13245aaf-a117-4aa9-8528-ec39f38a2f1d"> </p>
+<p align="center"> <img src="https://github.com/user-attachments/assets/13245aaf-a117-4aa9-8528-ec39f38a2f1d"> </p>
+
+## 📌 Flex End
+
+**Ja no Flex End ocorre o contrario onde os ítens são alinhados junto à borda final:**
+
+<p align="flex-end"> <img src="https://github.com/user-attachments/assets/4bff0d54-f888-4279-8282-6747ff0a2b82"> </p>

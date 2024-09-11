@@ -6,19 +6,20 @@ A POC 2 tem o intuito de demonstrar o uso de diversas funções de como usar os 
 - **JavaScript:** Demonstra o uso de como manipular os arrays e seus diferentes tipos (que serão explicados a seguir para que serve cada tipo).
   
   **map**:
-  - Para dobrar os valores de um array.
+  - A função Map, mapeia cada elemento do Array permitindo utilizar funções especificas para ela. Obtendo um novo Array modificado.
     
   **spread**:
-  - Para combinar arrays e transformar uma HTML Collection em um array.
+  - E um operador que serve para espelhar objetos como arrays onde conseguimos utilizar mais argumentos com facilidade.
     
   **reduce**:
-   - Para somar as notas de alunos.
+   - O Reduce e uma função que reduz varias informações de uma Array, em apenas uma só, um exemplo e somar vários valores de um objeto.
   
   **filter**:
-   - Para remover elementos duplicados de um array.
+   - Como o nome já diz, iremos utilizar o filter para filtrar um elemento
+     vamos usar a Array como exemplo, iremos remover elementos duplicados no Array.
   
   **sort**:
-   - Para ordenar elementos de um array.
+   - O Sort e usado para ordenar arrays em JS sendo o padrao ordenando pela tabela unicode.
   
 
 ## Estrutura do Projeto

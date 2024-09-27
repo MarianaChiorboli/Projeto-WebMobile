@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Media Query</h1>
+      <div>
+        <ul>
+          <a href="#print"><li>print</li></a>
+          <a href="#width"><li>largura</li></a>
+          <a href="#disp"><li>disposição</li></a>
+        </ul>
+      </div>
+    </header>
+    <section id="print">
+      <h2>Media Query: Print</h2>
+      <p>
+        O @media print é uma consulta de mídia em CSS que permite aplicar
+        estilos específicos quando a página é impressa. Com isso, você pode
+        otimizar a aparência do seu conteúdo para a impressão, ocultando
+        elementos desnecessários, ajustando tamanhos de fonte e layout, ou
+        mudando cores para economizar tinta. Por exemplo:
+      </p>
+      <img src="imgs/backpadrao.png" alt="fundo do site com cor" />
+      <p>
+        ao imprimir uma pagina com essa característica o usuário irá gastar uma
+        tinta indesejada para imprimir o fundo violeta, mas utilizando esse
+        codigo no css podemos fazer com que o fundo do site se torne totalmente
+        branco no momento da impressão
+      </p>
+      <img
+        src="imgs/backwhite.png"
+        alt="codigo para alterar fundo na impressão"
+      />
+      <h2>Impressão do site:</h2>
+      <img
+        class="print_site"
+        src="imgs/print.png"
+        alt="impressão do site sem a cor de fundo e menu"
+      />
+      <p>
+        As media queries para impressão, que utilizam @media print, desempenham
+        um papel crucial na criação de documentos e layouts otimizados para
+        impressão. Uma das principais usabilidades é a capacidade de ajustar o
+        layout da página especificamente para impressão, garantindo que o
+        conteúdo se apresente de forma clara e organizada no papel. Isso pode
+        incluir a remoção de elementos desnecessários, como menus de navegação,
+        barras laterais e anúncios, que não são relevantes em uma versão
+        impressa.
+      </p>
+      <p>
+        Outra funcionalidade importante é a possibilidade de modificar estilos,
+        como tamanhos de fonte e cores. Por exemplo, pode-se usar uma fonte
+        maior e mais legível, além de mudar a cor de fundo para branco, evitando
+        que o papel fique manchado com tintas escuras. Essa abordagem não apenas
+        melhora a legibilidade, mas também economiza tinta. Além disso, as media
+        queries para impressão permitem o ajuste de imagens e gráficos,
+        tornando-os mais adequados para o formato impresso. É possível garantir
+        que as imagens sejam redimensionadas corretamente e que a resolução seja
+        suficiente para uma impressão de qualidade.
+      </p>
+      <p>
+        Outro aspecto relevante é a disposição de tabelas e listas, que pode ser
+        otimizada para facilitar a leitura em formato impresso, como ajustando a
+        largura das colunas.
+      </p>
+    </section>
+
+    <section id="width">
+      <h2>Media Query: Largura</h2>
+
+      <p>
+        Media queries de largura (width) são regras CSS que permitem aplicar
+        estilos diferentes com base na largura da tela do dispositivo. Elas
+        ajudam a criar layouts responsivos, garantindo que a aparência do site
+        se adapte a diferentes tamanhos de tela, como smartphones, tablets e
+        desktops. Por exemplo:
+      </p>
+      <img src="imgs/fontcel.png" alt="fonte para celular" />
+
+      <p>
+        Com essa instrução ao abrir em uma tela menor que 767 pixels de largura
+        (celulares), a fonte do site irá se alterar para uma mais adequada para
+        aquele dispositivo
+      </p>
+      <img src="imgs/fonttab.png" alt="fonte para tablets" />
+      <p>
+        Desse modo ao dispositivo se aberto em uma largura maior que 768 pixels
+        e menor que 1024, a fonte diminuirá de tamanho se adequando melhor a
+        dispositivos como tablets
+      </p>
+      <img src="imgs/fontdesk.png" alt="fonte para desktop" />
+      <p>
+        por fim desse modo em dispositivos com largura maior que 1025 pixels a
+        fonte tambem se altera, se adequando para desktops, Além disso, as media
+        queries possibilitam alterações no layout, permitindo que elementos
+        mudem de uma disposição em coluna única para múltiplas colunas em telas
+        maiores, proporcionando uma melhor organização visual. Outra aplicação
+        importante é a visibilidade de elementos, permitindo ocultar ou exibir
+        certos itens, como menus de navegação, dependendo do tamanho da tela.
+        Isso ajuda a manter uma interface limpa e funcional. As media queries
+        também facilitam o redimensionamento de imagens e vídeos, assegurando
+        que eles se ajustem adequadamente em qualquer dispositivo.
+      </p>
+    </section>
+    <section id="disp">
+      <h2>Media Query: Disposição de dispositivos</h2>
+      <p>
+        Essa media query serve para fazer alterações de acordo com a disposição
+        do seu aparelho, por exemplo ao utilizar um celular na vertical ou na
+        horizontal, dessa forma é possivel que o codigo se adeque a essa
+        variavel. Por exemplo:
+      </p>
+      <img src="imgs/landport.png" alt="Disposição do dispositivo" />
+      <p>
+        Nesse código uma div irá desaparecer se o usuário utilizar no modo
+        retrato (portrait) e voltará a aparecer se utilizar no modo paisagem
+        (landscape). Isso pode ser utilizado para esconder menus de navegação
+        que não tem espaço necessário para ocupar
+      </p>
+      <h2>Retrato:</h2>
+      <img
+        class="print_site"
+        src="imgs/portrait.png"
+        alt="Print da pagina em retrato"
+      />
+      <h2>Paisagem:</h2>
+      <img
+        class="print_site"
+        src="imgs/landscape.png"
+        alt="Print da pagina em paisagem"
+      />
+
+      <p>
+        As media queries de disposição, que utilizam orientation: portrait e
+        orientation: landscape, oferecem uma série de usabilidades valiosas para
+        a criação de interfaces responsivas. Uma das principais aplicações é o
+        ajuste do layout da página, permitindo que o design mude de uma coluna
+        única para múltiplas colunas quando o dispositivo está em paisagem,
+        maximizando o uso do espaço disponível. Além disso, essas media queries
+        facilitam a alteração dos tamanhos de fonte, o que é crucial para
+        garantir a legibilidade. Por exemplo, pode-se aumentar o tamanho da
+        fonte em modo retrato, onde a tela é mais estreita, ou ajustá-la em
+        paisagem para se adequar melhor ao layout. Outro aspecto importante é a
+        capacidade de esconder ou mostrar elementos, como menus ou barras
+        laterais, dependendo da orientação, resultando em uma experiência visual
+        mais limpa e organizada. As media queries também permitem o
+        redimensionamento de imagens e vídeos, garantindo que esses elementos se
+        encaixem adequadamente em qualquer orientação. Isso é especialmente
+        relevante em layouts de sites e aplicativos, onde a visualização de
+        conteúdo deve ser otimizada. Além disso, a mudança de estilos de
+        navegação pode ser implementada, adaptando a disposição dos menus por
+        exemplo, transformando um menu vertical em horizontal em paisagem. Outro
+        ponto a se considerar é o ajuste em formulários. A disposição dos campos
+        pode ser alterada para facilitar a entrada de dados, oferecendo uma
+        interação mais fluida. Por fim, essas media queries são fundamentais
+        para otimizar a experiência de jogos e aplicativos, permitindo que a
+        interface se adapte ao modo de uso do dispositivo. Em suma, elas ajudam
+        a criar experiências mais dinâmicas e agradáveis para os usuários em
+        diferentes orientações de tela.
+      </p>
+    </section>
+    <footer>
+      <h3>Todos os exemplos estão sendo usados na página de alguma forma</h3>
+    </footer>
+  </body>
+</html>

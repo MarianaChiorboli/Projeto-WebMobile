@@ -28,12 +28,35 @@ Nesta POC utilizamos ```https://hp-api.onrender.com/api/characters``` que retorn
     },
 ```
 ## Fetch
-No JavaScript criamos uma função assincrona que retorna este objeto JSON
+No JavaScript criamos uma função assincrona que usa o await para esperar o retorno deste objeto JSON
 
 ``` javascript
 async function buscarPersonagens() {
   const resposta = await fetch("https://hp-api.onrender.com/api/characters");
   return await resposta.json();
+}
+```
+
+Com as informações do JSON tratamos ela em diversas funções, para mais detalhes o codigo está disponivel neste repositorio na pasta ```POC4```
+Por fim criamos a função ```exibirInfoPersonagem``` para exibir na tela a foto, nome, genero e casa do personagem solicitado.
+
+### Resultado
+
+``` javascript
+function exibirInfoPersonagem(personagem) {
+  const personagemTraduzido = traduzirInfo(personagem);
+
+  divInfoPersonagem.innerHTML = `
+        <h2>${personagemTraduzido.name}</h2>
+        <p>${
+          personagemTraduzido.image !== "Imagem não disponível"
+            ? `<img src="${personagemTraduzido.image}" alt="${personagemTraduzido.name}" style="width: 200px;">`
+            : personagemTraduzido.image
+        }</p>
+        <p><strong>Espécie:</strong> ${personagemTraduzido.species}</p>
+        <p><strong>Gênero:</strong> ${personagemTraduzido.gender}</p>
+        <p><strong>Casa:</strong> ${personagemTraduzido.house}</p>
+    `;
 }
 ```
 

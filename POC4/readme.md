@@ -40,7 +40,7 @@ async function buscarPersonagens() {
 Com as informações do JSON tratamos ela em diversas funções, para mais detalhes o codigo está disponivel neste repositorio na pasta ```POC4```
 Por fim criamos a função ```exibirInfoPersonagem``` para exibir na tela a foto, nome, genero e casa do personagem solicitado.
 
-### Resultado
+## Resultado
 
 ``` javascript
 function exibirInfoPersonagem(personagem) {
@@ -59,5 +59,7 @@ function exibirInfoPersonagem(personagem) {
     `;
 }
 ```
+## Resultado no navegador 
+![image](https://github.com/user-attachments/assets/f260b8f2-ac9a-472d-92ce-7c16754aac04)
 
 

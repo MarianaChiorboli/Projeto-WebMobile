@@ -1,4 +1,4 @@
-## Usando API em JS: Fetch
+# Usando API em JS: Fetch
 Para consumir APIs no Java Script é importante definir um endpoint na URL que retorne as informações necessarias em um JSON.
 Nesta POC utilizamos ```https://hp-api.onrender.com/api/characters``` que retorna um objeto JSON com todos os personagens da Franquia Harry Potter, no JSON temos informações dos personagens como Nome, Genero e Casa na qual utilizamos no Projeto
 
@@ -27,4 +27,14 @@ Nesta POC utilizamos ```https://hp-api.onrender.com/api/characters``` que retorn
       "length": 11
     },
 ```
+## Fetch
+No JavaScript criamos uma função assincrona que retorna este objeto JSON
+
+``` javascript
+async function buscarPersonagens() {
+  const resposta = await fetch("https://hp-api.onrender.com/api/characters");
+  return await resposta.json();
+}
+```
+
 

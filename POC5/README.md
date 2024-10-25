@@ -24,15 +24,6 @@ Para criar um componente no React, primeiro criamos uma pasta dentro da pasta pa
 
 Neste componente, criamos uma função que recebe um texto como parâmetro e retorna uma ```div``` com o texto fornecido. Ao lado, temos o resultado:
 
-
-![image](https://github.com/user-attachments/assets/574ef51c-8421-49e7-ae90-e0b1d5fa3b86)
-
-No arquivo ```page.tsx``` dentro da função HomePage padrão ao chamar a função ```SimpleComponent``` com o texto de parametro e obtemos este resultado
-
-![image](https://github.com/user-attachments/assets/0840af28-cb01-4b14-9f1a-6f30eaaaef61)
-
-## Estilos CSS
-
 ``` tsx
 import styles from "./SimpleComponent.module.css";
 
@@ -46,3 +37,40 @@ export default function SimpleComponent({ text }) {
 ```
 
 
+No arquivo ```page.tsx``` dentro da função HomePage padrão ao chamar a função ```SimpleComponent``` com o texto de parametro e obtemos este resultado
+
+![image](https://github.com/user-attachments/assets/0840af28-cb01-4b14-9f1a-6f30eaaaef61)
+
+## Estilos CSS
+
+O ```CSS``` Global e utilizado para componentes com estilização compartilhada ou em comum, como fontes, cores de fundo e etc.
+
+### Exemplo
+``` css
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(214, 195, 195);
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+``` 
+
+O ```CSS``` Modular é utilizado para estilização de componentes especificos evitando conflitos 
+
+### Exemplo
+
+``` css
+.container {
+  background-color: gainsboro;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+```

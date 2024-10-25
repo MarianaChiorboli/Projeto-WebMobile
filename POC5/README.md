@@ -22,8 +22,7 @@ Esses arquivos e pastas formam a estrutura do projeto, cada um com sua particula
 
 Para criar um componente no React, primeiro criamos uma pasta dentro da pasta padrão ```/app``` com o nome da função que iremos criar, por exemplo, ```SimpleComponent.```
 
-Neste componente, criamos uma função que recebe um texto como parâmetro e retorna uma ```div``` com o texto fornecido. Ao lado, temos o resultado:
-
+Neste componente, criamos uma função que recebe um texto como parâmetro e retorna uma ```div``` com o texto fornecido.
 ``` tsx
 import styles from "./SimpleComponent.module.css";
 

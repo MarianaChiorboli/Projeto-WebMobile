@@ -73,3 +73,7 @@ O ```CSS``` Modular é utilizado para estilização de componentes especificos e
   font-family: Arial, sans-serif;
 }
 ```
+
+Mariana Agostinho Chiorboli Costa - 10435657
+Thiago Kauã Pestana do Amaral - 10420686
+Murilo Franciscon Miotto - 10438787

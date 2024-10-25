@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React - NextJS
+![React](https://github.com/user-attachments/assets/a9e7b86b-f18b-4dec-9bee-c462fc78038f)
+Nesta POC 5 Iremos abordar o funcionamento dos seguintes conceitos do React:
+Estrutura de Projeto NextJS.
+Criação de componentes simples.
+Estilo CSS (global e módulo). 
 
-## Getting Started
+## Estrutura do Projeto NextJS
 
-First, run the development server:
+A Estrutura padrão do NextJS são as seguintes:
+```/app:``` Diretório de rotas e páginas, cada pasta ou arquivo dentro de /app representa uma rota (ex: app/about/page.js será /about).
+```/components:``` Local onde ficam os componentes reutilizáveis.
+```/public:``` Arquivos estáticos como imagens e ícones.
+```next.config.js:``` Configurações específicas do Next.js, como suporte para imagens, redirecionamentos, etc.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Todos esses arquivos são encontrados na estrutura do projeto, cada um com a sua particularidade e sua função, sendo o ```App e Components``` os mais utilizados por nós desenvolvedores

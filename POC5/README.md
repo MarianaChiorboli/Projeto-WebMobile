@@ -21,8 +21,11 @@ Todos esses arquivos são encontrados na estrutura do projeto, cada um com a sua
 
 Para criar um componente no React primeiro criamos uma pasta dentro da pasta padrão ```/app``` com o nome da função que iremos criar, por exemplo ```SimpleComponent```
 
-![image](https://github.com/user-attachments/assets/574ef51c-8421-49e7-ae90-e0b1d5fa3b86)
-
 Neste componente criamos uma função que recebe um texto de parametro que retorna uma ```div``` com o texto fornecido, ao lado o resultado.
 
+![image](https://github.com/user-attachments/assets/574ef51c-8421-49e7-ae90-e0b1d5fa3b86)
+
 No arquivo ```page.tsx``` dentro da função HomePage padrão ao chamar a função ```SimpleComponent``` 
+
+![image](https://github.com/user-attachments/assets/4d6410f9-e556-4352-ac9c-3205e368b03d)
+

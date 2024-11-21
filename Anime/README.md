@@ -27,7 +27,9 @@ export function getHeroes(BASE_URL, code, callback) {
 Usamos ele como o unico componente "api.js"
 
 No arquivo page.tsx, criamos duas variaveis
+
 animes e setAnimes: Estado para armazenar os dados dos animes. Inicialmente, é um array vazio.
+
 animeIds: Array com os IDs dos animes que serão buscados na API.
 
 ``` tsx
@@ -38,10 +40,15 @@ export default function Home() {
 Processo de busca:
 
 Para cada ID no array, faz uma requisição HTTP (fetch) para a API.
+
 Promise.all(fetchPromises):
+
 Aguarda todas as requisições serem concluídas.
+
 Converte as respostas em JSON.
+
 Extrai os dados relevantes (campo data) de cada resposta e os armazena no estado animes.
+
 Tratamento de erros:
 
 Caso ocorra um erro na busca, ele será registrado no console.
@@ -64,10 +71,15 @@ useEffect(() => {
 ```
 
 animes.map:
+
 Itera sobre o array animes e renderiza um <article> para cada anime.
+
 Estrutura renderizada para cada anime:
+
 key={anime.mal_id}: Identificador único necessário para elementos em listas no React.
+
 Exibe título, nota (score), ranking, número de episódios e uma imagem do anime.
+
 A imagem é exibida com o atributo src apontando para anime.images.jpg.large_image_url.
 
 ``` tsx
@@ -95,6 +107,8 @@ Resultado:
 
 
 Mariana Agostinho Chiorboli Costa - 10435657
+
 Thiago Kauã Pestana do Amaral - 10420686
+
 Murilo Franciscon Miotto - 10438787
 

@@ -2,7 +2,7 @@
 
 Usando a estrutura 
 
-''' js
+``` tsx
 export function getJSON(url, callback) {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", url, true);
@@ -22,4 +22,4 @@ export function getHeroes(BASE_URL, code, callback) {
   var url = BASE_URL + code;
   getJSON(url, callback);
 }
-'''
+```

@@ -90,15 +90,8 @@ return (
 );
 ```
 
-
-
-
-
-
-
-
-
-
+Resultado:
+![image](https://github.com/user-attachments/assets/94d6540e-3d98-40d9-9fcc-b1ad592730db)
 
 
 Mariana Agostinho Chiorboli Costa - 10435657
